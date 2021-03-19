@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="50" passed="50">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2021-03-19T01:11:34 IST" finished-at="2021-03-19T01:11:34 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="ChromeSuite" duration-ms="466649" started-at="2021-03-19T01:03:44 IST" finished-at="2021-03-19T01:11:31 IST">
+    <groups>
+      <group name="Functional">
+        <method signature="TestCases.changingTheBackgroundPicture()[pri:38, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="changingTheBackgroundPicture" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.changingTheProfilePicture()[pri:37, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="changingTheProfilePicture" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkCartButton()[pri:8, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCartButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkCheersButton()[pri:6, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCheersButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkCognizantLogo()[pri:5, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCognizantLogo" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkContactUsButton()[pri:23, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkContactUsButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkControlBarLogoutButton()[pri:13, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarLogoutButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkControlBarMyAwardsButton()[pri:11, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarMyAwardsButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkControlBarMyOrdersButton()[pri:12, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarMyOrdersButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkDropdownButton()[pri:10, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkDropdownButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkFooterContactUsButton()[pri:21, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterContactUsButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkFooterCookiePolicyButton()[pri:20, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterCookiePolicyButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkFooterPrivacyPolicyButton()[pri:19, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterPrivacyPolicyButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkFooterTermsOfUseButton()[pri:18, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterTermsOfUseButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkGridRecognize()[pri:15, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkGridRecognize" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkGridRedeem()[pri:14, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkGridRedeem" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkHomeButton()[pri:4, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkHomeButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkNavRecognizeButton()[pri:17, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkNavRecognizeButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkNavRedeem()[pri:16, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkNavRedeem" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkPointsButton()[pri:9, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkPointsButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkProgramInformationButton()[pri:22, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkProgramInformationButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkStoreButton()[pri:7, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkStoreButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingFindingAColleaguetextbox()[pri:25, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingFindingAColleaguetextbox" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMyAwardsButton()[pri:28, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyAwardsButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMyDashboardButton()[pri:27, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyDashboardButton" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMyMobilePageElements()[pri:30, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyMobilePageElements" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMyNominationsPageElements()[pri:29, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyNominationsPageElements" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMyOrdersPageElements()[pri:32, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyOrdersPageElements" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingMySettingsPageElements()[pri:31, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMySettingsPageElements" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingTheEditorPicksButtonShoppingPage()[pri:41, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheEditorPicksButtonShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingTheSearchBoxShoppingPage()[pri:39, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheSearchBoxShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingTheShopAllButtonShoppingPage()[pri:40, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheShopAllButtonShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.checkingTheTopBrandsButtonShoppingPage()[pri:42, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheTopBrandsButtonShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchInternationalNumber()[pri:24, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchInternationalNumber" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingEditorPicks1SublistShoppingPage()[pri:44, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingEditorPicks1SublistShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingEditorPicks2ListShoppingPage()[pri:48, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingEditorPicks2ListShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingFeaturedFindsListShoppingPage()[pri:46, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingFeaturedFindsListShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingListOfColleaguesInNominationsPage()[pri:35, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingListOfColleaguesInNominationsPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingListOfMobileFeatures()[pri:36, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingListOfMobileFeatures" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingMyAwardsPagetext()[pri:34, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingMyAwardsPagetext" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingShopallSublistShoppingPage()[pri:43, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingShopallSublistShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingTheNameAfterFindingColleague()[pri:26, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTheNameAfterFindingColleague" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingTopBrandsListShoppingPage()[pri:45, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTopBrandsListShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.fetchingTrendingListShoppingPage()[pri:47, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTrendingListShoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.printingUserNameOfMyDashboard()[pri:33, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="printingUserNameOfMyDashboard" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.searchingResultsInshoppingPage()[pri:49, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="searchingResultsInshoppingPage" class="cheers.cognizant.testcases.TestCases"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="TestCases.regression_1()[pri:2, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="regression_1" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.regression_2()[pri:3, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="regression_2" class="cheers.cognizant.testcases.TestCases"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestCases.homePageSmoke()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="homePageSmoke" class="cheers.cognizant.testcases.TestCases"/>
+        <method signature="TestCases.shoppingPageSmoke()[pri:1, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="shoppingPageSmoke" class="cheers.cognizant.testcases.TestCases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="466649" started-at="2021-03-19T01:03:44 IST" finished-at="2021-03-19T01:11:31 IST">
+      <class name="cheers.cognizant.testcases.TestCases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="openTheBrowser" is-config="true" duration-ms="4021" started-at="2021-03-19T01:03:40 IST" finished-at="2021-03-19T01:03:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="homePageSmoke()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="homePageSmoke" duration-ms="61336" started-at="2021-03-19T01:03:44 IST" finished-at="2021-03-19T01:04:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSmoke -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="504" started-at="2021-03-19T01:04:45 IST" finished-at="2021-03-19T01:04:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="shoppingPageSmoke()[pri:1, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="shoppingPageSmoke" duration-ms="14816" started-at="2021-03-19T01:04:46 IST" finished-at="2021-03-19T01:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingPageSmoke -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="302" started-at="2021-03-19T01:05:01 IST" finished-at="2021-03-19T01:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="regression_1()[pri:2, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="regression_1" duration-ms="13029" started-at="2021-03-19T01:05:01 IST" finished-at="2021-03-19T01:05:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_1 -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="63" started-at="2021-03-19T01:05:14 IST" finished-at="2021-03-19T01:05:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="regression_2()[pri:3, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="regression_2" duration-ms="5245" started-at="2021-03-19T01:05:14 IST" finished-at="2021-03-19T01:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_2 -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="78" started-at="2021-03-19T01:05:19 IST" finished-at="2021-03-19T01:05:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkHomeButton()[pri:4, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkHomeButton" duration-ms="3587" started-at="2021-03-19T01:05:19 IST" finished-at="2021-03-19T01:05:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="57" started-at="2021-03-19T01:05:23 IST" finished-at="2021-03-19T01:05:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkCognizantLogo()[pri:5, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCognizantLogo" duration-ms="3874" started-at="2021-03-19T01:05:23 IST" finished-at="2021-03-19T01:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCognizantLogo -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="85" started-at="2021-03-19T01:05:27 IST" finished-at="2021-03-19T01:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkCheersButton()[pri:6, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCheersButton" duration-ms="5709" started-at="2021-03-19T01:05:27 IST" finished-at="2021-03-19T01:05:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheersButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="62" started-at="2021-03-19T01:05:33 IST" finished-at="2021-03-19T01:05:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkStoreButton()[pri:7, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkStoreButton" duration-ms="7771" started-at="2021-03-19T01:05:33 IST" finished-at="2021-03-19T01:05:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStoreButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="71" started-at="2021-03-19T01:05:41 IST" finished-at="2021-03-19T01:05:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkCartButton()[pri:8, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkCartButton" duration-ms="8750" started-at="2021-03-19T01:05:41 IST" finished-at="2021-03-19T01:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="77" started-at="2021-03-19T01:05:49 IST" finished-at="2021-03-19T01:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkPointsButton()[pri:9, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkPointsButton" duration-ms="7185" started-at="2021-03-19T01:05:49 IST" finished-at="2021-03-19T01:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPointsButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="86" started-at="2021-03-19T01:05:57 IST" finished-at="2021-03-19T01:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkDropdownButton()[pri:10, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkDropdownButton" duration-ms="3451" started-at="2021-03-19T01:05:57 IST" finished-at="2021-03-19T01:06:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDropdownButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="63" started-at="2021-03-19T01:06:00 IST" finished-at="2021-03-19T01:06:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkControlBarMyAwardsButton()[pri:11, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarMyAwardsButton" duration-ms="5183" started-at="2021-03-19T01:06:00 IST" finished-at="2021-03-19T01:06:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkControlBarMyAwardsButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="65" started-at="2021-03-19T01:06:05 IST" finished-at="2021-03-19T01:06:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkControlBarMyOrdersButton()[pri:12, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarMyOrdersButton" duration-ms="5959" started-at="2021-03-19T01:06:06 IST" finished-at="2021-03-19T01:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkControlBarMyOrdersButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="49" started-at="2021-03-19T01:06:12 IST" finished-at="2021-03-19T01:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkControlBarLogoutButton()[pri:13, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkControlBarLogoutButton" duration-ms="4909" started-at="2021-03-19T01:06:12 IST" finished-at="2021-03-19T01:06:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkControlBarLogoutButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="46" started-at="2021-03-19T01:06:16 IST" finished-at="2021-03-19T01:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkGridRedeem()[pri:14, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkGridRedeem" duration-ms="3520" started-at="2021-03-19T01:06:17 IST" finished-at="2021-03-19T01:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGridRedeem -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="62" started-at="2021-03-19T01:06:20 IST" finished-at="2021-03-19T01:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkGridRecognize()[pri:15, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkGridRecognize" duration-ms="10240" started-at="2021-03-19T01:06:20 IST" finished-at="2021-03-19T01:06:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGridRecognize -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="104" started-at="2021-03-19T01:06:30 IST" finished-at="2021-03-19T01:06:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkNavRedeem()[pri:16, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkNavRedeem" duration-ms="3340" started-at="2021-03-19T01:06:30 IST" finished-at="2021-03-19T01:06:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavRedeem -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="59" started-at="2021-03-19T01:06:34 IST" finished-at="2021-03-19T01:06:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkNavRecognizeButton()[pri:17, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkNavRecognizeButton" duration-ms="4918" started-at="2021-03-19T01:06:34 IST" finished-at="2021-03-19T01:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavRecognizeButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="153" started-at="2021-03-19T01:06:39 IST" finished-at="2021-03-19T01:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkFooterTermsOfUseButton()[pri:18, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterTermsOfUseButton" duration-ms="1702" started-at="2021-03-19T01:06:39 IST" finished-at="2021-03-19T01:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterTermsOfUseButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="45" started-at="2021-03-19T01:06:41 IST" finished-at="2021-03-19T01:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkFooterPrivacyPolicyButton()[pri:19, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterPrivacyPolicyButton" duration-ms="2459" started-at="2021-03-19T01:06:41 IST" finished-at="2021-03-19T01:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterPrivacyPolicyButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="57" started-at="2021-03-19T01:06:43 IST" finished-at="2021-03-19T01:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkFooterCookiePolicyButton()[pri:20, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterCookiePolicyButton" duration-ms="2167" started-at="2021-03-19T01:06:43 IST" finished-at="2021-03-19T01:06:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterCookiePolicyButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="190" started-at="2021-03-19T01:06:45 IST" finished-at="2021-03-19T01:06:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkFooterContactUsButton()[pri:21, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkFooterContactUsButton" duration-ms="2226" started-at="2021-03-19T01:06:46 IST" finished-at="2021-03-19T01:06:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterContactUsButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="39" started-at="2021-03-19T01:06:48 IST" finished-at="2021-03-19T01:06:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkProgramInformationButton()[pri:22, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkProgramInformationButton" duration-ms="2939" started-at="2021-03-19T01:06:48 IST" finished-at="2021-03-19T01:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProgramInformationButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="60" started-at="2021-03-19T01:06:51 IST" finished-at="2021-03-19T01:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkContactUsButton()[pri:23, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkContactUsButton" duration-ms="2503" started-at="2021-03-19T01:06:51 IST" finished-at="2021-03-19T01:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContactUsButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="43" started-at="2021-03-19T01:06:53 IST" finished-at="2021-03-19T01:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchInternationalNumber()[pri:24, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchInternationalNumber" duration-ms="3201" started-at="2021-03-19T01:06:53 IST" finished-at="2021-03-19T01:06:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchInternationalNumber -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="74" started-at="2021-03-19T01:06:57 IST" finished-at="2021-03-19T01:06:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingFindingAColleaguetextbox()[pri:25, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingFindingAColleaguetextbox" duration-ms="4330" started-at="2021-03-19T01:06:57 IST" finished-at="2021-03-19T01:07:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingFindingAColleaguetextbox -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="49" started-at="2021-03-19T01:07:01 IST" finished-at="2021-03-19T01:07:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingTheNameAfterFindingColleague()[pri:26, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTheNameAfterFindingColleague" duration-ms="5625" started-at="2021-03-19T01:07:01 IST" finished-at="2021-03-19T01:07:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingTheNameAfterFindingColleague -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="36" started-at="2021-03-19T01:07:07 IST" finished-at="2021-03-19T01:07:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMyDashboardButton()[pri:27, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyDashboardButton" duration-ms="6907" started-at="2021-03-19T01:07:07 IST" finished-at="2021-03-19T01:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMyDashboardButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="65" started-at="2021-03-19T01:07:14 IST" finished-at="2021-03-19T01:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMyAwardsButton()[pri:28, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyAwardsButton" duration-ms="11692" started-at="2021-03-19T01:07:14 IST" finished-at="2021-03-19T01:07:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMyAwardsButton -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="52" started-at="2021-03-19T01:07:25 IST" finished-at="2021-03-19T01:07:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMyNominationsPageElements()[pri:29, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyNominationsPageElements" duration-ms="9547" started-at="2021-03-19T01:07:25 IST" finished-at="2021-03-19T01:07:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMyNominationsPageElements -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="42" started-at="2021-03-19T01:07:35 IST" finished-at="2021-03-19T01:07:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMyMobilePageElements()[pri:30, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyMobilePageElements" duration-ms="9266" started-at="2021-03-19T01:07:35 IST" finished-at="2021-03-19T01:07:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMyMobilePageElements -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="60" started-at="2021-03-19T01:07:44 IST" finished-at="2021-03-19T01:07:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMySettingsPageElements()[pri:31, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMySettingsPageElements" duration-ms="30773" started-at="2021-03-19T01:07:44 IST" finished-at="2021-03-19T01:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMySettingsPageElements -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="46" started-at="2021-03-19T01:08:15 IST" finished-at="2021-03-19T01:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingMyOrdersPageElements()[pri:32, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingMyOrdersPageElements" duration-ms="17131" started-at="2021-03-19T01:08:15 IST" finished-at="2021-03-19T01:08:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingMyOrdersPageElements -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="114" started-at="2021-03-19T01:08:32 IST" finished-at="2021-03-19T01:08:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="printingUserNameOfMyDashboard()[pri:33, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="printingUserNameOfMyDashboard" duration-ms="4047" started-at="2021-03-19T01:08:32 IST" finished-at="2021-03-19T01:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printingUserNameOfMyDashboard -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="55" started-at="2021-03-19T01:08:36 IST" finished-at="2021-03-19T01:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingMyAwardsPagetext()[pri:34, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingMyAwardsPagetext" duration-ms="9668" started-at="2021-03-19T01:08:36 IST" finished-at="2021-03-19T01:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingMyAwardsPagetext -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="44" started-at="2021-03-19T01:08:46 IST" finished-at="2021-03-19T01:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingListOfColleaguesInNominationsPage()[pri:35, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingListOfColleaguesInNominationsPage" duration-ms="12719" started-at="2021-03-19T01:08:46 IST" finished-at="2021-03-19T01:08:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingListOfColleaguesInNominationsPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="98" started-at="2021-03-19T01:08:59 IST" finished-at="2021-03-19T01:08:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingListOfMobileFeatures()[pri:36, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingListOfMobileFeatures" duration-ms="8638" started-at="2021-03-19T01:08:59 IST" finished-at="2021-03-19T01:09:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingListOfMobileFeatures -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="41" started-at="2021-03-19T01:09:08 IST" finished-at="2021-03-19T01:09:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="changingTheProfilePicture()[pri:37, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="changingTheProfilePicture" duration-ms="14852" started-at="2021-03-19T01:09:08 IST" finished-at="2021-03-19T01:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changingTheProfilePicture -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="42" started-at="2021-03-19T01:09:23 IST" finished-at="2021-03-19T01:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="changingTheBackgroundPicture()[pri:38, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="changingTheBackgroundPicture" duration-ms="20238" started-at="2021-03-19T01:09:23 IST" finished-at="2021-03-19T01:09:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changingTheBackgroundPicture -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="54" started-at="2021-03-19T01:09:43 IST" finished-at="2021-03-19T01:09:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingTheSearchBoxShoppingPage()[pri:39, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheSearchBoxShoppingPage" duration-ms="9861" started-at="2021-03-19T01:09:43 IST" finished-at="2021-03-19T01:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTheSearchBoxShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="38" started-at="2021-03-19T01:09:53 IST" finished-at="2021-03-19T01:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingTheShopAllButtonShoppingPage()[pri:40, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheShopAllButtonShoppingPage" duration-ms="8870" started-at="2021-03-19T01:09:53 IST" finished-at="2021-03-19T01:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTheShopAllButtonShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="62" started-at="2021-03-19T01:10:02 IST" finished-at="2021-03-19T01:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingTheEditorPicksButtonShoppingPage()[pri:41, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheEditorPicksButtonShoppingPage" duration-ms="8053" started-at="2021-03-19T01:10:02 IST" finished-at="2021-03-19T01:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTheEditorPicksButtonShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="41" started-at="2021-03-19T01:10:10 IST" finished-at="2021-03-19T01:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="checkingTheTopBrandsButtonShoppingPage()[pri:42, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="checkingTheTopBrandsButtonShoppingPage" duration-ms="8212" started-at="2021-03-19T01:10:10 IST" finished-at="2021-03-19T01:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTheTopBrandsButtonShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="37" started-at="2021-03-19T01:10:18 IST" finished-at="2021-03-19T01:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingShopallSublistShoppingPage()[pri:43, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingShopallSublistShoppingPage" duration-ms="9289" started-at="2021-03-19T01:10:18 IST" finished-at="2021-03-19T01:10:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingShopallSublistShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="37" started-at="2021-03-19T01:10:27 IST" finished-at="2021-03-19T01:10:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingEditorPicks1SublistShoppingPage()[pri:44, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingEditorPicks1SublistShoppingPage" duration-ms="9091" started-at="2021-03-19T01:10:27 IST" finished-at="2021-03-19T01:10:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingEditorPicks1SublistShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="37" started-at="2021-03-19T01:10:36 IST" finished-at="2021-03-19T01:10:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingTopBrandsListShoppingPage()[pri:45, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTopBrandsListShoppingPage" duration-ms="8812" started-at="2021-03-19T01:10:37 IST" finished-at="2021-03-19T01:10:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingTopBrandsListShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="40" started-at="2021-03-19T01:10:45 IST" finished-at="2021-03-19T01:10:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingFeaturedFindsListShoppingPage()[pri:46, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingFeaturedFindsListShoppingPage" duration-ms="10770" started-at="2021-03-19T01:10:45 IST" finished-at="2021-03-19T01:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingFeaturedFindsListShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="41" started-at="2021-03-19T01:10:56 IST" finished-at="2021-03-19T01:10:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingTrendingListShoppingPage()[pri:47, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingTrendingListShoppingPage" duration-ms="7799" started-at="2021-03-19T01:10:56 IST" finished-at="2021-03-19T01:11:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingTrendingListShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="45" started-at="2021-03-19T01:11:04 IST" finished-at="2021-03-19T01:11:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="fetchingEditorPicks2ListShoppingPage()[pri:48, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="fetchingEditorPicks2ListShoppingPage" duration-ms="9702" started-at="2021-03-19T01:11:04 IST" finished-at="2021-03-19T01:11:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingEditorPicks2ListShoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="42" started-at="2021-03-19T01:11:14 IST" finished-at="2021-03-19T01:11:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="searchingResultsInshoppingPage()[pri:49, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="searchingResultsInshoppingPage" duration-ms="16809" started-at="2021-03-19T01:11:14 IST" finished-at="2021-03-19T01:11:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingResultsInshoppingPage -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushReport" is-config="true" duration-ms="39" started-at="2021-03-19T01:11:31 IST" finished-at="2021-03-19T01:11:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="flushExcelReport()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="flushExcelReport" is-config="true" duration-ms="1243" started-at="2021-03-19T01:11:31 IST" finished-at="2021-03-19T01:11:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExcelReport -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:cheers.cognizant.testcases.TestCases@351d0846]" name="quitDriver" is-config="true" duration-ms="1715" started-at="2021-03-19T01:11:32 IST" finished-at="2021-03-19T01:11:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- cheers.cognizant.testcases.TestCases -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- ChromeSuite -->
+</testng-results>

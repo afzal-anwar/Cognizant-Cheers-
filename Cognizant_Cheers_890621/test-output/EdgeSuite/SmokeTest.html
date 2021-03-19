@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 18 17:56:47 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>510 seconds (510310 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Functional Regression Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.changingTheBackgroundPicture()'><b>changingTheBackgroundPicture</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>21</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.changingTheProfilePicture()'><b>changingTheProfilePicture</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>14</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkCartButton()'><b>checkCartButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>9</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkCheersButton()'><b>checkCheersButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>7</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkCognizantLogo()'><b>checkCognizantLogo</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>3</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkContactUsButton()'><b>checkContactUsButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkControlBarLogoutButton()'><b>checkControlBarLogoutButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>6</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkControlBarMyAwardsButton()'><b>checkControlBarMyAwardsButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>5</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkControlBarMyOrdersButton()'><b>checkControlBarMyOrdersButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>6</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkDropdownButton()'><b>checkDropdownButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>4</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkFooterContactUsButton()'><b>checkFooterContactUsButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkFooterCookiePolicyButton()'><b>checkFooterCookiePolicyButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkFooterPrivacyPolicyButton()'><b>checkFooterPrivacyPolicyButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkFooterTermsOfUseButton()'><b>checkFooterTermsOfUseButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkGridRecognize()'><b>checkGridRecognize</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>7</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkGridRedeem()'><b>checkGridRedeem</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>3</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkHomeButton()'><b>checkHomeButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>15</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkNavRecognizeButton()'><b>checkNavRecognizeButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>3</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkNavRedeem()'><b>checkNavRedeem</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>4</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkPointsButton()'><b>checkPointsButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>7</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkProgramInformationButton()'><b>checkProgramInformationButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>2</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkStoreButton()'><b>checkStoreButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>7</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingFindingAColleaguetextbox()'><b>checkingFindingAColleaguetextbox</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>4</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMyAwardsButton()'><b>checkingMyAwardsButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>13</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMyDashboardButton()'><b>checkingMyDashboardButton</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>12</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMyMobilePageElements()'><b>checkingMyMobilePageElements</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>10</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMyNominationsPageElements()'><b>checkingMyNominationsPageElements</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>11</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMyOrdersPageElements()'><b>checkingMyOrdersPageElements</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>17</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingMySettingsPageElements()'><b>checkingMySettingsPageElements</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>29</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingTheEditorPicksButtonShoppingPage()'><b>checkingTheEditorPicksButtonShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>9</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingTheSearchBoxShoppingPage()'><b>checkingTheSearchBoxShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>11</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingTheShopAllButtonShoppingPage()'><b>checkingTheShopAllButtonShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>10</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.checkingTheTopBrandsButtonShoppingPage()'><b>checkingTheTopBrandsButtonShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>8</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchInternationalNumber()'><b>fetchInternationalNumber</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>4</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingEditorPicks1SublistShoppingPage()'><b>fetchingEditorPicks1SublistShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>9</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingEditorPicks2ListShoppingPage()'><b>fetchingEditorPicks2ListShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>10</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingFeaturedFindsListShoppingPage()'><b>fetchingFeaturedFindsListShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>11</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingListOfCollaguesInNominationsPage()'><b>fetchingListOfCollaguesInNominationsPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>12</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingListOfMobileFeatures()'><b>fetchingListOfMobileFeatures</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>8</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingMyAwardsPagetext()'><b>fetchingMyAwardsPagetext</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>8</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingShopallSublistShoppingPage()'><b>fetchingShopallSublistShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>10</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingTheNameAfterFindingColleague()'><b>fetchingTheNameAfterFindingColleague</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>5</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingTopBrandsListShoppingPage()'><b>fetchingTopBrandsListShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>9</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.fetchingTrendingListShoppingPage()'><b>fetchingTrendingListShoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>9</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.homePageSmoke()'><b>homePageSmoke</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>56</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.printingUserNameOfMyDashboard()'><b>printingUserNameOfMyDashboard</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>5</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.regression_1()'><b>regression_1</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>17</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.regression_2()'><b>regression_2</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>6</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.searchingResultsInshoppingPage()'><b>searchingResultsInshoppingPage</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>17</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+<tr>
+<td title='cheers.cognizant.testcases.TestCases.shoppingPageSmoke()'><b>shoppingPageSmoke</b><br>Test class: cheers.cognizant.testcases.TestCases</td>
+<td></td>
+<td>16</td>
+<td>cheers.cognizant.testcases.TestCases@4d49af10</td></tr>
+</table><p>
+</body>
+</html>
